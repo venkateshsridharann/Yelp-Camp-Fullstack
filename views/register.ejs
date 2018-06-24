@@ -1,11 +1,30 @@
 <% include ./partials/header %>
 
-<h1> Sign Up!</h1>  
+<div class="container login-signup">
+    <div class="row vertical-offset-100">
+    	<div class="col-md-4 col-md-offset-4">
+    		<div class="panel panel-default">
+			  	<div class="panel-heading">
+			    	<h3 class="panel-title">Sign Up!</h3>
+			 	</div>
+			  	<div class="panel-body">
+			    	<form action="/register" method="POST">
+			    	  	<div class="form-group">
+			    		    <input type="text" name="username" placeholder="username">
+			    		</div>
+			    		<div class="form-group">
+			    			<input type="password" name="password" placeholder="password">
+			    		</div>
+			    		<input class="btn btn-primary" type="Submit" value"Sign Up">
+			    	
+			      	</form>
+			    </div>
+			</div>
+		</div>
+	</div>
+</div>
 
-<form action="/register" method="POST">
-    <input type="text" name="username" placeholder="username">
-    <input type="password" name="password" placeholder="password">
-    <button>Sign Up</button>    
-</form>
+
+
 
 <% include ./partials/footer %>
