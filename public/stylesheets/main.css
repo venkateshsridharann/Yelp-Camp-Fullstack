@@ -22,7 +22,7 @@
 /*background-image: url("https://cl9r93gnrb42o3l0v1aawby1-wpengine.netdna-ssl.com/wp-content/uploads/2018/02/Camping.jpg");*/
 /*background-size: cover;*/
 /*color: white;*/
-text-shadow: 2px 2px 5px black;
+text-shadow: .5px 0px 1px white;
 
 }
 
@@ -54,17 +54,21 @@ text-shadow: 2px 2px 5px black;
 {
     position: relative;
     margin-top: 20%;
-    margin-left: 20%;
+    margin-left: 27%;
     
     
+}
+#quote
+{    
+ margin-left: 4%;
 }
 .move-btn
 {    
- margin-left: 20%;
+ margin-left: 12%;
 }
 body
 {
-    color: #3b5998;
+    color: #C70039 ; 
     background-image: url("https://hdbackgroundspot.com//storage/upload/black-abstract-background/black-abstract-background-8.jpg");
 }
 
